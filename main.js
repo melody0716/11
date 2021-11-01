@@ -22,8 +22,8 @@ addEventListener('load', function(){
 
         function animate() {
             requestAnimationFrame(animate);
-            curX += (mouseX - curX) * 0.05;
-            curY += (mouseY - curY) * 0.05;
+            curX += (mouseX - curX) * 0.1;
+            curY += (mouseY - curY) * 0.1;
     
         horizontal.style.transform = `translateY(${curY}px)`;
         vertical.style.transform = `translateX(${curX}px)`;
